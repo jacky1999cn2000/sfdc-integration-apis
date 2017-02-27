@@ -1,0 +1,12 @@
+version: '2'
+services:
+  voter-trax-app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    working_dir: "/usr/src/app"
+    entrypoint: npm start
+networks:
+  default:

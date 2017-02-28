@@ -1,0 +1,21 @@
+{
+    
+  "records": [{
+        
+	"attributes": {"type": "Precinct__c", "referenceId": "ref1"},
+        
+	"Name": "3rd District"
+        
+	},
+        
+	{
+        
+	"attributes": {"type": "Precinct__c", "referenceId": "ref2"},
+        
+	"Name": "5th District"
+        
+	}
+    
+    ]
+
+}

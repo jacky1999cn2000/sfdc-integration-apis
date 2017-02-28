@@ -1,0 +1,15 @@
+{
+"batchRequests" : [
+    {
+    "method" : "POST",
+    "url" : "v35.0/sobjects/Voter__c/",
+    "richInput": {"Name":"Ron Swanson", "Precinct__c":"a06G000000jvq9z", "Political_Party__c":"Republican", "Mailing_Address__c":"4346 252nd Pl SE, Issaquah, WA 98029"}
+    },{
+    "method" : "POST",
+    "url" : "v35.0/sobjects/Voter__c/",
+    "richInput": {"Name":"Andy Dwyer", "Precinct__c":"a06G000000jvq9z", "Political_Party__c":"Green", "Mailing_Address__c":"25235 SE Klahanie Blvd, Issaquah, WA 98029"}
+    },{
+    "method" : "GET",
+    "url" : "v35.0/sobjects/Voter__c/"
+    }]
+} 

@@ -1,0 +1,41 @@
+{
+
+	"records": [{
+
+		"attributes": {"type": "Voter__c", "referenceId": "ref1"},
+
+		"Name": "Ann Perkins",
+  
+		"Precinct__c": "a06G000000jvq9zIAA",
+
+		"Mailing_Address__c": "3726 257th Ave SE, Issaquah, WA 98029",
+		"Political_Party__c": "Independent",
+		"Voter_Donations__r": {
+
+			"records": [{
+
+				"attributes": {"type": "Voter_Donation__c", "referenceId": "ref2"},
+
+				"Amount__c": 1000,
+				"Candidate_Name__c": "Mike Smith"
+			},
+			{
+
+				"attributes": {"type": "Voter_Donation__c", "referenceId": "ref3"},
+
+				"Amount__c": 500,
+				"Candidate_Name__c": "Tim Westwood"
+			},
+			{
+
+				"attributes": {"type": "Voter_Donation__c", "referenceId": "ref4"},
+
+				"Amount__c": 100,
+				"Candidate_Name__c": "Tom Haverford"
+			}]
+
+		}
+
+	}]
+
+}

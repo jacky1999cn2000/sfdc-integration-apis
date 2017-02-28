@@ -1,0 +1,27 @@
+{
+
+	"records": [{
+
+		"attributes": {"type": "Voter__c", "referenceId": "ref1"},
+
+		"Name": "Ben Wyatt",
+  
+		"Precinct__c": "a06G000000jvq9zIAA",
+
+		"Mailing_Address__c": "25210 SE 35th St, Issaquah, WA 98029",
+		"Political_Party__c": "Democrat",
+		"Voter_Donations__r": {
+
+			"records": [{
+
+				"attributes": {"type": "Voter_Donation__c", "referenceId": "ref2"},
+
+				"Amount__c": 1000,
+				"Candidate_Name__c": "Mike Smith"
+			}]
+
+		}
+
+	}]
+
+}

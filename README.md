@@ -13,3 +13,4 @@
 
 # tutorials
   * [SOAP](./tutorials/SOAP)
+  * [RESTful](./tutorials/RESTful)

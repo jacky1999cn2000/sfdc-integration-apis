@@ -1,0 +1,13 @@
+{
+"batchRequests" : [
+    {
+    "method" : "GET",
+    "url" : "v35.0/sobjects/Voter__c/a00G000000T9JdWIAV"
+    },{
+    "method" : "GET",
+    "url" : "v35.0/sobjects/Precinct__c/a06G000000jvq9zIAA"
+    },{
+    "method" : "GET",
+    "url" : "v35.0/sobjects/Voter_Donation__c/a07G000000kWD7JIAW?fields=Name,Candidate_Name__c"
+    }]
+} 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns="http://soap.sforce.com/schemas/class/SoapVoterService">
+  <soapenv:Header>
+     <SessionHeader>
+        <sessionId>TOKEN</sessionId>
+     </SessionHeader>
+  </soapenv:Header>
+  <soapenv:Body>
+     <getVoter>
+        <voterId>a00G000000T9JdW</voterId>
+     </getVoter>
+  </soapenv:Body>
+</soapenv:Envelope>

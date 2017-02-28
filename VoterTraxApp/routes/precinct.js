@@ -6,7 +6,7 @@ var creds = require('../credentials.json');
 
 
 router.get('/', function (req, res) {
-    
+
     //create request object to authenticate
     request({
         url: 'https://login.salesforce.com/services/oauth2/token', //oauth endpoint
@@ -25,10 +25,10 @@ router.get('/', function (req, res) {
             var result = JSON.parse(body);
             var url = result.instance_url;
             var token = result.access_token;
-            
+            console.log(token);
             //retrieve voters by doing a query
             request({
-                url: 'https://na30.salesforce.com/services/data/v35.0/query/?q=select+id,+name,+Political_Party__c,+Precinct__r.Name,+Mailing_Address__c+from+Voter__c+where+ Precinct__r.Name+=+%273rd District%27',
+                url: 'https://na40.salesforce.com/services/data/v35.0/query/?q=select+id,+name,+Political_Party__c,+Precinct__r.Name,+Mailing_Address__c+from+Voter__c+where+ Precinct__r.Name+=+%273rd District%27',
                 method: 'GET',
                 headers: {
                     'Authorization': 'Bearer ' + token
@@ -39,16 +39,16 @@ router.get('/', function (req, res) {
                 } else {
                     var vresult = JSON.parse(vbody);
                     console.log(vbody);
-                    
+
                     //render page, provide list of voters
                     res.render('precinct', { title: 'Voter Trax Online', voters:vresult.records });
                 }
             });
-            
 
-            
+
+
         }
-    });   
+    });
 });
 
 module.exports = router;

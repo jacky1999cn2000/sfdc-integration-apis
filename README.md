@@ -10,6 +10,8 @@
 # node app setup
 
 * cd into `VoterTraxApp` folder, and run `make run`
+* go to `localhost:3000`
+* update `creadentials.json`
 
 # tutorials
   * [SOAP](./tutorials/SOAP)

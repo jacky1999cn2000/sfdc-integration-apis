@@ -17,3 +17,4 @@
   * [SOAP](./tutorials/SOAP)
   * [RESTful](./tutorials/RESTful)
   * [BULK](./tutorials/BULK)
+  * [Outbound Message](./tutorials/OutboundMessage)

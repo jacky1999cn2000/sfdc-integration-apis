@@ -1,0 +1,4 @@
+Salesforce Field,Csv Header,Value,Hint
+Name,Voter Name,,
+Political_Party__c,Party,Independent,
+Precinct__c,Precinct,,

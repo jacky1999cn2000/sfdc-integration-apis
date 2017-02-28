@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sObjects xmlns="http://www.force.com/2009/06/asyncapi/dataload">
+<sObject>
+<Name>[Bulk API] Voter 1</Name>
+<Precinct__c>a0046000001SQszAAG</Precinct__c>
+</sObject>
+<sObject>
+<Name>[Bulk API] Voter 2</Name>
+<Precinct__c>a0046000001SQszAAG</Precinct__c>
+</sObject>
+</sObjects>

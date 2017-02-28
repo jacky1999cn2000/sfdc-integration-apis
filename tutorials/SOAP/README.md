@@ -176,4 +176,4 @@ Postman-Token: 77a980b3-c601-a937-61f6-50c5e2a684ed
 </soapenv:Envelope>
 ```
 It didn't show up in Home tab's `Recent Records` section - if change the MruHeader to `<urn:updateMru>true</urn:updateMru>`, then the record will show up there.
-![1](/imgs/1.png)
+![1](./imgs/1.png)

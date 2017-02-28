@@ -27,6 +27,7 @@
   * Batch up a set of operations
   * Created nested records
   * Create set of unrelated records
+  * `composite/batch` and `composite/tree` (former treat each operation independent, and execute them serially vs latter treat all the operations as a transaction, all succeed or all fail)
 
 * Batch query (**note the url**)
   * request

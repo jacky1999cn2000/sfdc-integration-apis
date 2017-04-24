@@ -1,0 +1,10 @@
+PushTopic pushTopic = new PushTopic();
+pushTopic.Name = 'UpdatedDonations';
+pushTopic.Query = 'SELECT Id, Name, Amount__c, Donation_Date__c FROM Voter_Donation__c';
+pushTopic.ApiVersion = 35.0;
+pushTopic.NotifyForOperationCreate = false;
+pushTopic.NotifyForOperationUpdate = true;
+pushTopic.NotifyForOperationUndelete = false;
+pushTopic.NotifyForOperationDelete = false;
+pushTopic.NotifyForFields = 'Referenced';
+insert pushTopic;

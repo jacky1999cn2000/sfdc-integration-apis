@@ -1,0 +1,3 @@
+List<PushTopic> pts = [SELECT Id FROM PushTopic WHERE Name = 'UpdatedDonations'];
+pts[0].NotifyForFields = 'All'; 
+Database.update(pts);
